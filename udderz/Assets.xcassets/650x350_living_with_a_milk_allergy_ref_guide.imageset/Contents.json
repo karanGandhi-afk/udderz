@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "650x350_living_with_a_milk_allergy_ref_guide.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
