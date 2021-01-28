@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cow-354428_1280" translatesAutoresizingMaskIntoConstraints="NO" id="aor-iJ-Wd8">
-                                <rect key="frame" x="-13" y="0.0" width="427" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow-354428_1280" translatesAutoresizingMaskIntoConstraints="NO" id="aor-iJ-Wd8">
+                                <rect key="frame" x="-433" y="-43" width="1280" height="982"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wa-x2-FfR">
                                 <rect key="frame" x="144" y="164" width="126" height="48"/>
@@ -30,6 +29,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aor-iJ-Wd8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RmN-J9-oPS"/>
+                            <constraint firstItem="aor-iJ-Wd8" firstAttribute="centerYWithinMargins" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="kfy-wC-dJ5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
