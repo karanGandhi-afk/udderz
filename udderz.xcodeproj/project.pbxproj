@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0138609F25C99F530092429D /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0138609E25C99F530092429D /* alarm_sound.mp3 */; };
 		0157E62025C32BF7000968BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0157E61F25C32BF7000968BD /* AppDelegate.swift */; };
 		0157E62225C32BF7000968BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0157E62125C32BF7000968BD /* SceneDelegate.swift */; };
 		0157E62425C32BF7000968BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0157E62325C32BF7000968BD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0138609E25C99F530092429D /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		0157E61C25C32BF7000968BD /* udderz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udderz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0157E61F25C32BF7000968BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0157E62125C32BF7000968BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		0157E61E25C32BF7000968BD /* udderz */ = {
 			isa = PBXGroup;
 			children = (
+				0138609E25C99F530092429D /* alarm_sound.mp3 */,
 				0157E61F25C32BF7000968BD /* AppDelegate.swift */,
 				0157E62125C32BF7000968BD /* SceneDelegate.swift */,
 				0157E62325C32BF7000968BD /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			files = (
 				0157E62C25C32BFC000968BD /* LaunchScreen.storyboard in Resources */,
 				0157E62925C32BFC000968BD /* Assets.xcassets in Resources */,
+				0138609F25C99F530092429D /* alarm_sound.mp3 in Resources */,
 				0157E62725C32BF7000968BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
